@@ -72,13 +72,11 @@ const config = {
           src: 'img/logotype.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
+          {to: '/create',
             label: 'Create',
+            position: 'left'
           },
-          {to: '/blog', label: 'Participate', position: 'left'},
+          {to: '/participate', label: 'Participate', position: 'left'},
           {
             href: 'https://github.com/WilderAp/Calendars',
             label: 'GitHub',
